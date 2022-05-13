@@ -1,0 +1,75 @@
+/*
+a:hover MUST come after a:link and a:visited
+
+a:active MUST come after a:hover
+*/
+body{
+	background-color: #c3c3c3;
+	margin: 4%;
+}
+header{
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px;
+}
+header, footer{
+	background: #666666;
+	background: -webkit-linear-gradient(top, #666666 0%, #00b7ea 100%);
+	background: -o-linear-gradient(#666666 0%, #00b7ea 100%);
+	/*background: linear-gradient(#666666 0%, #00b7ea 100%); */
+}
+h1{
+	color: #ffffff;
+	
+}
+h2{
+	background-color: #9999ff;
+	color: #0000b0;
+}
+a{
+	color: #9999ff;
+}
+a:hover{
+	color: #5555ff;
+}
+a:visited{
+	color: #7722ff;
+}
+nav a{
+	display: inline-block;
+	width: 22%;
+	font-size: 20px;
+	font-family: Arial;
+	font-weight: bold;
+	text-decoration: none;
+	background: #ddddff;
+	border: double 5px;
+}
+footer{
+	clear: both;
+}
+details{
+	font-style: italic;
+}
+summary{
+	font-style: normal;
+}
+.half{
+	display: inline-block;
+	width: 45%;
+	margin-right: 3.3%;
+	float: left;
+}
+#moreabout{
+	clear: both;
+}
+/*
+section{
+	display: inline-block;
+	width: 30%;
+	margin-right: 3.3%;
+	float: left;
+}*/
+img{
+	width: 100px;
+}
